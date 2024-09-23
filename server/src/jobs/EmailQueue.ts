@@ -14,7 +14,7 @@ export const handler = new Worker(
   emailQueueName,
   async (job: Job) => {
     const data = job.data;
-    await sendMail(data.to, data.subject, data.body);
+    await sendMail(data.to, data.subject, data.html);
   },
   { connection: redisConnection }
 );
