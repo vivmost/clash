@@ -15,7 +15,7 @@ cd server && npm install
 create .env file
 ```
 
-to start backend or front end server go to their directory and hit below command
+to start backend or front end server go to their directory and hit this command
 
 ```js
 npm run dev
